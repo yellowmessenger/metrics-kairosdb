@@ -1,0 +1,1 @@
+var metrics = require("lib/metrics-kairosdb");

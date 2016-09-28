@@ -1,8 +1,8 @@
 {
   "name": "metrics-kairosdb",
   "description": "Push metrics to kairosdb",
-  "version": "0.1",
-  "homepage": "https://github.com/uber/express-statsd",
+  "version": "0.1.1",
+  "homepage": "https://github.com/yellowmessenger/metrics-kairosdb",
   "author": {
     "name": "Jaya Kishore Reddy",
     "email": "kishore@yellowmessenger.com"
@@ -23,17 +23,9 @@
   ],
   "main": "lib/metrics-kairosdb",
   "dependencies": {
+    "kairosdb": "0.0.3"
   },
-  "devDependencies": {
-    "chai": "~1.8.1",
-    "express": "~3.4.7",
-    "grunt": "~0.4.2",
-    "grunt-cli": "~0.1.11",
-    "grunt-contrib-jshint": "~0.7.2",
-    "mocha": "~1.15.1",
-    "request": "~2.29.0"
-  },
-  "scripts": {
-    "test": "grunt && mocha -R spec"
+  "devDependencies":{
+    "express": "~3.4.7"
   }
 }
