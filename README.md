@@ -8,14 +8,14 @@ npm install git+https://github.com/yellowmessenger/metrics-kairosdb.git#0.1.1 --
 
 ## Usage
 
-An example of an express server with express-statsd:
+An example of an express server with metrics-kairosdb:
 
 ``` js
 var express = require('express');
-var expressStatsd = require('express-statsd').expressStatsd;
+var serverStats = require('metrics-kairosdb').serverStats;
 var app = express();
 
-app.use(expressStatsd({
+app.use(serverStats({
     app:"<app-name>"
 }));
 
