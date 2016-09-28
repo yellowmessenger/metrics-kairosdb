@@ -1,0 +1,39 @@
+{
+  "name": "metrics-kairosdb",
+  "description": "Push metrics to kairosdb",
+  "version": "0.1",
+  "homepage": "https://github.com/uber/express-statsd",
+  "author": {
+    "name": "Jaya Kishore Reddy",
+    "email": "kishore@yellowmessenger.com"
+  },
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yellowmessenger/metrics-kairosdb"
+  },
+  "bugs": {
+    "url": "https://github.com/yellowmessenger/metrics-kairosdb/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/yellowmessenger/metrics-kairosdb/LICENSE"
+    }
+  ],
+  "main": "lib/metrics-kairosdb",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "chai": "~1.8.1",
+    "express": "~3.4.7",
+    "grunt": "~0.4.2",
+    "grunt-cli": "~0.1.11",
+    "grunt-contrib-jshint": "~0.7.2",
+    "mocha": "~1.15.1",
+    "request": "~2.29.0"
+  },
+  "scripts": {
+    "test": "grunt && mocha -R spec"
+  }
+}
