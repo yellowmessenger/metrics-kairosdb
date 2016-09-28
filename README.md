@@ -1,4 +1,4 @@
-# express-statsd
+# metrics-kairosdb
 
 ## Installation
 
